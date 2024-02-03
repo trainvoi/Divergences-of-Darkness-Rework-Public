@@ -1568,7 +1568,7 @@ electrical_lighting = {
 		}
 	}
 	effect = {
-	    pop_growth = -0.0001
+	    #pop_growth = -0.0001
 		factory_throughput = 0.1
 	}
 }

@@ -82,4 +82,4 @@ govt_flag = {
 
 set_country_flag = russian_governorate  
 set_country_flag = unreleasable_country
-set_country_flag = tierthree_blocker
+#set_country_flag = tierthree_blocker

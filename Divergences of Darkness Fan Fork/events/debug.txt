@@ -1,0 +1,92 @@
+
+country_event = { 
+	id = 9990000
+	title = ""
+	desc = ""
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "A"
+		980 = { trade_goods = coal }
+		999 = { trade_goods = coal }
+		1000 = { trade_goods = coal }
+		1019 = { trade_goods = coal }
+		1010 = { trade_goods = coal }
+		1011 = { trade_goods = coal }
+		1011 = { trade_goods = coal }
+		1012 = { trade_goods = coal }
+		1014 = { trade_goods = coal }
+		1015 = { trade_goods = coal }
+		
+		957 = { trade_goods = coal }
+		692 = { trade_goods = coal }
+		951 = { trade_goods = coal }
+		
+		2676 = { trade_goods = coal }
+		2691 = { trade_goods = coal }
+		2692 = { trade_goods = coal }
+		2657 = { trade_goods = coal }
+		2694 = { trade_goods = coal }
+		2695 = { trade_goods = coal }
+		2701 = { trade_goods = coal }
+		1072 = { trade_goods = coal }
+		2618 = { trade_goods = coal }
+		2639 = { trade_goods = coal }
+		1074 = { trade_goods = coal }
+		2633 = { trade_goods = coal }
+		2666 = { trade_goods = coal }
+		2663 = { trade_goods = coal }
+		2637 = { trade_goods = coal }
+		2590 = { trade_goods = coal }
+		1073 = { trade_goods = coal }
+		2638 = { trade_goods = coal }
+		2620 = { trade_goods = coal }
+		2640 = { trade_goods = coal }
+		2642 = { trade_goods = coal }
+		2664 = { trade_goods = copper }
+		2661 = { trade_goods = copper }
+		2690 = { trade_goods = copper }
+		2649 = { trade_goods = copper }
+		2673 = { trade_goods = timber }
+		2675 = { trade_goods = timber }
+		2675 = { trade_goods = timber }
+		2660 = { trade_goods = timber }
+		2622 = { trade_goods = timber }
+		2648 = { trade_goods = timber }
+		2669 = { trade_goods = timber }
+		2622 = { trade_goods = timber }
+		1069 = { trade_goods = coal }
+		2672 = { trade_goods = timber }
+		2643= { trade_goods = timber }
+		2668 = { trade_goods = timber }
+		
+		2684 = { trade_goods = lead }
+		2613 = { trade_goods = lead }
+		2659 = { trade_goods = lead }
+		2657 = { trade_goods = timber }
+		2687 = { trade_goods = coal }
+		2652 = { trade_goods = coal }
+		2696 = { trade_goods = precious_metal }
+		
+		#1066 = { trade_goods = sulphur }
+		2587 = { trade_goods = sulphur }
+		#2683 = { trade_goods = sulphur }
+	}
+	
+	option = {
+		name = "B"
+		any_owned = {
+			limit = {
+				OR = {
+					trade_goods = sulphur
+					trade_goods = oil
+				}
+			}
+			add_province_modifier = { name = treaty_port duration = -1 }
+			add_province_modifier = { name = population_resettlement_2 duration = -1 }
+		}
+	}
+}
