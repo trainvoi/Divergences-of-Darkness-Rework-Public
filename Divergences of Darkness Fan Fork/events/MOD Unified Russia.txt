@@ -1113,7 +1113,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	months = 6
+	months = 36
 	   modifier = {
 	      factor = 99
 		     RUS = { has_country_modifier = russian_governorate_cooldown }
@@ -1223,7 +1223,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	months = 6
+	months = 36
 	   modifier = {
 	      factor = 99
 		     RUS = { has_country_modifier = russian_governorate_cooldown }
@@ -1344,7 +1344,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-	months = 12
+	months = 72
 	   modifier = {
 	      factor = 99
 		     RUS = { has_country_modifier = russian_governorate_cooldown }

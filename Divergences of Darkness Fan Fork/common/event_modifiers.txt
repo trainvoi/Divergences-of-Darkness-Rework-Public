@@ -5783,9 +5783,3 @@ rev_reforms = {
 	administrative_efficiency_modifier = 0.1 
 	icon = 13 
 }
-
-population_resettlement_2 = {
-	immigrant_attract = 20
-	icon = 19
-}
-

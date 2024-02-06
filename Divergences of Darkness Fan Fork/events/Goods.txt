@@ -526,7 +526,6 @@ province_event = {
                 OR = {
                     province_id = 1102        # Baku
                     province_id = 1205        # Kizil Arvat
-                    province_id = 1204
                     province_id = 1104        # Sheki 1871
                     province_id = 1186        # Alma Ata 1872
                     province_id = 1202        # Kokand 1873
@@ -547,8 +546,6 @@ province_event = {
                     }
                     province_id = 112        # Cheyenne
                     province_id = 1055        # Grozny 1883
-                    province_id = 1054
-                    province_id = 1056
                     province_id = 126        # Topeka 1883
                     province_id = 1393        # Brunei 1885
                     province_id = 1401        # Siak 1885
@@ -584,8 +581,7 @@ province_event = {
                     province_id = 1720        # Timimoun 1910
                     province_id = 1167        # Abu Dhabi 1910
                     province_id = 1163        # Qatif 1910                   
-                    province_id = 1170        # Nizwa  1910                
-                    province_id = 1032
+                    province_id = 1170        # Nizwa  1910
                 }
             }
 
@@ -599,10 +595,6 @@ province_event = {
                     province_id = 2237        # Trinidad 1917
                     province_id = 928        # Mendeli 1923
                     province_id = 923        # Mosul 1927
-                    province_id = 2685
-                    province_id = 1066
-                    province_id = 1061
-                    province_id = 1062
                 }
             }
         }

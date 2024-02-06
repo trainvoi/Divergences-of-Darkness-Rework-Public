@@ -1352,7 +1352,7 @@ promote_to = {
 			location = { 
 				is_colonial = yes 
 				NOT = { is_core = RUS }
-				#NOT = { is_core = CRI }
+				NOT = { is_core = CRI }
 				OR = {
 				   culture = russian
 				   culture = cossack
@@ -1369,7 +1369,7 @@ promote_to = {
 			location = { 
 				is_colonial = yes 
 				NOT = { is_core = RUS }
-				#NOT = { is_core = CRI }
+				NOT = { is_core = CRI }
 				total_pops = 125000
 				OR = {
 				   culture = russian
